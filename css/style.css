@@ -30,9 +30,13 @@ nav ol li {
 }
 
 nav a {
-    color: white;
-
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
     font-size: 19px;
+
+    text-decoration: none;
+
+    color: white;
 }
 
 nav a:hover {
@@ -43,14 +47,18 @@ nav a:hover {
     transition: 0.35s;
 }
 
-a {
+div#aprensetacao {
+    display: flex;
+}
+
+.content a {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 600;
 
     text-decoration: none;
 }
 
-h1 {
+.content h1 {
     font-size: 2rem;
     font-weight: 600;
 
@@ -59,7 +67,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-p {
+.content p {
     font-size: 1rem;
     font-weight: 500;
 
@@ -87,5 +95,8 @@ p {
 
 .content span {
     color: #6c00ff;
-    text-decoration: underline;
+}
+
+article {
+    margin-bottom: 40px;
 }
