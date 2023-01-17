@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Hacking';
-    src: url('/fonts/Cracked\ Code.ttf') format('truetype');
-  }
+    font-family: hacking;
+    src: url(../fonts/Cracked\ Code.ttf);
+ }
 
 * {
     padding: 0px;
@@ -29,7 +29,7 @@ img {
 }
 
 #apresentacao h1 {
-    font-family: Hacking;
+    font-family: hacking;
 
     margin-left: 0px;
     margin-bottom: 10px;
@@ -40,7 +40,7 @@ img {
 }
 
 #apresentacao p {
-    font-family: Hacking;
+    font-family: hacking;
     font-size: 1rem;
     font-weight: 500;
 

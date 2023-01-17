@@ -1,3 +1,8 @@
+@font-face {
+    font-family: hacking;
+    src: url(../fonts/Cracked\ Code.ttf);
+ }
+
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
 * {
@@ -13,7 +18,7 @@ body {
 }
 
 nav ol {
-    width: 215px;
+    width: 223px;
     max-width: calc(100% - 80px);
 
     margin: auto;
