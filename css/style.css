@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-image: url(../img/vecteezy_abstract-neon-background-with-glitch-effect_.jpg);
+    background-size: cover;
+
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+nav ol {
+    width: 215px;
+    max-width: calc(100% - 80px);
+
+    margin: auto;
+
+    list-style: none;
+}
+
+nav ol li {
+    display: inline-block;
+
+    padding: 10px;
+
+    margin: auto;
+}
+
+nav a {
+    color: white;
+
+    font-size: 19px;
+}
+
+nav a:hover {
+    color: #6c00ff;
+
+    text-decoration: underline;
+
+    transition: 0.35s;
+}
+
+a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+
+    color: white;
+
+    text-indent: 15px;
+
+    padding-left: 10px;
+}
+
+.content {
+    width: 1100px;
+    max-width: calc(100% - 50px);
+
+    margin: 20px auto;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content span {
+    color: #6c00ff;
+    text-decoration: underline;
+}

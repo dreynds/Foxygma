@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+img {
+    width: 350px;
+    margin: auto;
+    max-width: calc(100% - 50px);
+    padding: 10px;
+
+    display: block;
+
+}
