@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+span {
+    color: #6c00ff;
+}
+
+img {
+    width: 250px;
+    max-width: calc(100% - 50px);
+    padding: 10px;
+
+    margin: auto;
+
+    display: block;
+}
+
+.fases {
+    width: 1100px;
+    max-width: calc(100% - 50px);
+
+    margin: 20px auto;
+    margin-top: 90px;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    border-radius: 5px;
+}
+
+.fases h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+.fases p {
+    font-size: 1.1em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.fases input {
+    width: 450px;
+    max-width: calc(100% - 50px);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+
+    font-size: 1rem;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    border: 1px solid white;
+    border-radius: 20px;
+
+    padding: 8px;
+
+    outline: 0;
+}
+
+.fases input#enviar {
+    font-weight: 600;
+    width: 100px;
+}
+
+.fases input#enviar:hover {
+    background-color: white;
+    color: black;
+
+    border-color: black;
+
+    transition: 0.4s;
+}
+
+button {
+    width: 150px;
+    max-width: calc(100% - 50px);
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    padding: 5px;
+
+    color: white;
+    background-color: transparent;
+
+    border-color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    font-weight: 600;
+
+    color: black;
+    background-color: white;
+
+    border-color: black;
+
+    transition: 0.4s;
+}

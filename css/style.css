@@ -17,6 +17,10 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+nav {
+    margin-top: 10px;
+}
+
 nav ol {
     width: 223px;
     max-width: calc(100% - 80px);
