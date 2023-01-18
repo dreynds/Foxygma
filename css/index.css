@@ -24,12 +24,13 @@ img {
     flex-direction: column;
     align-items: center;
 
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     margin-top: 20px;
 }
 
 #apresentacao h1 {
     font-family: hacking;
+    font-weight: 500;
 
     margin-left: 0px;
     margin-bottom: 10px;
@@ -37,6 +38,7 @@ img {
     color: #fff;
     
     text-shadow: -2px 2px 0px #6C00FF;
+    text-indent: 0px;
 }
 
 #apresentacao p {
@@ -47,4 +49,51 @@ img {
     color: white;
 
     text-shadow: -2px 2px 0px black;
+}
+
+#begin h1 {
+    font-size: 2rem;
+
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: -2px 2px 0px #6C00FF;
+}
+
+#begin p {
+    max-width: 550px;
+    text-align: center;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#begin button {
+    font-family: hacking;
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: white;
+    background-color: transparent;
+
+    padding: 10px;
+    display: block;
+    margin: auto;
+
+    border-color: white;
+    border-radius: 10px;
+}
+
+#begin button:hover {
+    font-weight: 600;
+
+    color: black;
+    background-color: white;
+
+    border-color: black;
+
+    transition: 0.3s;
+}
+
+#begin article {
+    margin-bottom: 0px;
 }
