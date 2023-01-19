@@ -1,0 +1,61 @@
+img {
+    width: 250px;
+    max-width: 100px;
+
+    margin: auto;
+
+    display: block;
+}
+
+article.eu {
+    display: flex;
+}
+
+.session {
+    margin-top: 0px;
+}
+
+.content {
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+.content h1 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+    text-indent: 0px;
+
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.content-up h1{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1rem;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    text-align: left;
+}
