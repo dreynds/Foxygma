@@ -203,3 +203,55 @@ button:hover {
 
     text-align: center;
 }
+
+#fase-5 h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+#fase-5 p {
+    font-size: 1.15em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+#fase-s h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+#fase-s p {
+    font-size: 1.15em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
