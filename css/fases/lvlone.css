@@ -31,7 +31,7 @@ img {
     border-radius: 5px;
 }
 
-.fases h1 {
+#fase-1 h1 {
     font-size: 2rem;
     font-weight: 500;
     font-family: hacking;
@@ -44,7 +44,7 @@ img {
     color: white;
 }
 
-.fases p {
+#fase-1 p {
     font-size: 1.1em;
     font-weight: 500;
 
@@ -81,6 +81,8 @@ img {
 .fases input#enviar {
     font-weight: 600;
     width: 100px;
+
+    transform: scale(0.9);
 }
 
 .fases input#enviar:hover {
@@ -90,6 +92,7 @@ img {
     border-color: black;
 
     transition: 0.4s;
+    transform: scale(1);
 }
 
 button {
@@ -107,6 +110,8 @@ button {
 
     border-color: white;
     border-radius: 10px;
+
+    transform: scale(0.9);
 }
 
 button:hover {
@@ -118,4 +123,83 @@ button:hover {
     border-color: black;
 
     transition: 0.4s;
+    transform: scale(1);
+}
+
+#fase-2 h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+#fase-2 p {
+    font-size: 1.5em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+#fase-3 h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+#fase-3 p {
+    font-size: 1.15em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+#fase-4 h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: hacking;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+#fase-4 p {
+    font-size: 1.15em;
+    font-weight: 500;
+
+    color: white;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+    text-align: center;
 }
